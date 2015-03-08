@@ -10,6 +10,24 @@
     position: relative;
 }
 
+header h1 { margin-bottom: 5px; }
+header h1 a { color: #494949; font-weight: bold; }
+header h3 { margin-top: 20px; margin-bottom: 5px; }
+header p.view { margin-bottom: 5px; }
+header p.view small { padding-top: 2px; }
+
+a {
+color:#39c;
+font-weight:400;
+text-decoration:none;
+}
+a small {
+font-size:11px;
+color:#777;
+margin-top:-0.6em;
+display:block;
+}
+
 .site-title {
     font-size: 26px;
     line-height: 56px;
