@@ -1,0 +1,27 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
+
+header {
+width:10%;
+float:left;
+position:fixed;
+}
+
+h1, h2, h3, h4, h5, h6 {
+color:#222;
+margin:0 0 20px;
+}
+
+p, ul, ol, table, pre, dl {
+margin:0 0 20px;
+}
+
+h1 {
+font-size:28px;
+}
+
+small {
+font-size:11px;
+}
+
+
+
