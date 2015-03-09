@@ -6,6 +6,7 @@ p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
     margin: 0;
     padding: 0;
+    color: #494949;
 }
 
 
@@ -18,7 +19,7 @@ body {
     font-size: $base-font-size;
     line-height: $base-line-height;
     font-weight: 300;
-    color: $text-color;
+    
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
 }
@@ -97,8 +98,6 @@ a {
     }
 
     &:hover {
-        color: $text-color;
-        text-decoration: underline;
     }
 }
 

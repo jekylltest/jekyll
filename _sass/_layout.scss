@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
+
 /**
  * Site header
  */
@@ -10,6 +12,7 @@
     position: relative;
 }
 
+header {position: fixed; left: 5%; right: -5%; top: 10%;}
 header h1 { margin-bottom: 5px; }
 header h1 a { color: #494949; font-weight: bold; }
 header h3 { margin-top: 20px; margin-bottom: 5px; }
@@ -110,8 +113,8 @@ display:block;
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+    position: fixed; left: 5%; right: -5%; bottom: 5%;
 }
 
 .footer-heading {
