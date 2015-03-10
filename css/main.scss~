@@ -29,14 +29,10 @@ $on-laptop:        $content-width;
 
 
 
-@mixin media-query($device) {
-@media screen and (max-width: $device) {
-@content;
+@mixin screen and (max-width: 670px) {
+  #homewrap{display:none;}
 }
-}
-@media only screen and (max-width: 670px) {
-#homewrap{display:none;}
-}
+
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
