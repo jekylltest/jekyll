@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html>
-
+<style>
+.wrapper{position:relative; top:-80%;}
+</style>
   {% include head.html %}
 
   <body>
-
-    {% include header.html %}
-
     <div class="page-content">
+       {% include header.html %}
+
       <div class="wrapper">
         {{ content }}
       </div>
-    </div>
 
-    {% include footer.html %}
+       {% include footer.html %}
+    </div>
 
   </body>
 

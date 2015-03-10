@@ -7,12 +7,13 @@
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
+    clear: both;
 
     // Positioning context for the mobile navigation icon
     position: relative;
 }
 
-header {position: fixed; left: 5%; right: -5%; top: 10%;}
+header {position: relative; left: 5%; right: -5%; top: 10%; width: 18%;}
 header h1 { margin-bottom: 5px; }
 header h1 a { color: #494949; font-weight: bold; }
 header h3 { margin-top: 20px; margin-bottom: 5px; }
@@ -25,7 +26,7 @@ font-weight:400;
 text-decoration:none;
 }
 a small {
-font-size:11px;
+font-size:15px;
 color:#777;
 margin-top:-0.6em;
 display:block;
@@ -113,8 +114,8 @@ display:block;
  * Site footer
  */
 .site-footer {
-    padding: $spacing-unit 0;
-    position: fixed; left: 5%; right: -5%; bottom: 5%;
+    position: relative; left: 5%; right: -5%; bottom: 5%;
+    margin-top: -17%;
 }
 
 .footer-heading {
@@ -184,6 +185,7 @@ display:block;
  */
 .page-content {
     padding: $spacing-unit 0;
+    width: 90%;
 }
 
 .page-heading {

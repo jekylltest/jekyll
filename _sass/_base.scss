@@ -84,6 +84,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 300;
 }
 
+strong{font-weight: bold;}
 
 
 /**
@@ -94,7 +95,6 @@ a {
     text-decoration: none;
 
     &:visited {
-        color: darken($brand-color, 15%);
     }
 
     &:hover {
@@ -118,6 +118,7 @@ blockquote {
         margin-bottom: 0;
     }
 }
+
 
 
 
@@ -153,13 +154,15 @@ pre {
  * Wrapper
  */
 .wrapper {
-    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+    max-width: 70%;
     margin-right: auto;
     margin-left: auto;
-    padding-right: $spacing-unit;
-    padding-left: $spacing-unit;
+    padding-right: 0px;
+    padding-left: 25%;
+    position: relative;
+    top: -$spacing-unit*9;
     @extend %clearfix;
+    z-index: -1;
 
     @include media-query($on-laptop) {
         max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
