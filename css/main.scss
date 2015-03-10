@@ -42,6 +42,9 @@ $on-laptop:        $content-width;
     }
 }
 
+@media only screen and (min-width: 670px) {
+  #homewrap{display:none;}
+}
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
