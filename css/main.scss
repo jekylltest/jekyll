@@ -34,9 +34,28 @@ $on-laptop:        $content-width;
 @content;
 }
 }
+
+// ipad portrait
+@media only screen and (max-width: 780px) {
+
+	footer{position:fixed;bottom:1%;}
+	#mick{display:none;}
+	#homeim{margin-left:25%;margin-top: 15%;}
+}
+
+
+// ipad landscape
+@media only screen and (max-width: 1020px) {
+
+	footer{position:fixed;bottom:1%;}
+	#homeim{width: 30%;}
+}
+
 @media only screen and (max-width: 670px) {
+
 #homewrap{display:none;}
 }
+header{width:100%;}
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
