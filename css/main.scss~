@@ -72,8 +72,7 @@ footer{position: fixed; left: 5%; right: -5%; bottom: 5%; margin-top: -17%;}
 // 6 portrait
 @media only screen and (max-width: 480px) {
 
-	footer {margin-top:-10%;left:25%;}
-	#icons {left: 25%;}
+	footer {bottom: 5%;}
 	#homewrap {display:none;}
         #vid {display: none;}
 	#sound {width: 100%;}
