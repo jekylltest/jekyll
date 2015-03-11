@@ -3,7 +3,7 @@ layout: default
 ---
 <style>
 .wrapper{top:0px;}
-
+#sound{width:50%;}
 @media only screen and (max-width: 670px) {header {display: none;} .wrapper{z-index:+2;}}
 @media only screen and (max-width: 480px) { hr{display:none;} small {display: none;} footer {position: fixed; left: 25%;} .wrapper{left: -10%;}.wrapper{z-index:+2;}}
 </style>
