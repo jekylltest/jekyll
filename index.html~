@@ -4,6 +4,8 @@ layout: default
 <style>
 .wrapper{width=$content-width/3}
 .wrapper{position: fixed; top: 10%; left:5%;}
+
+@media only screen and (max-width: 670px) {footer {position: relative;}}
 </style>
 
 
@@ -11,12 +13,12 @@ layout: default
 
 <div id= "homewrap">
 <div id ="mick" class = "blockquote" style= "float: right;   width: 50%; padding-top: 15%;">
-<p><strong>Mickey:</strong>
-<br> Your nose is broken.</p><br><br>
-<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rocky:</strong>
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; How does it look?</p><br><br>
-<p><strong>Mickey:</strong>
-<br> Ah, it's an improvement.</p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mickey:</strong>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Your nose is broken.</p><br><br>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rocky:</strong>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; How does it look?</p><br><br>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mickey:</strong>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ah, it's an improvement.</p>
 </div>
 
 
