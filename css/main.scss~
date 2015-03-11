@@ -34,6 +34,7 @@ header h3 { margin-top: 20px; margin-bottom: 5px; }
 header p.view { margin-bottom: 5px; }
 header p.view small { padding-top: 2px; }
 
+footer{position: fixed; left: 5%; right: -5%; bottom: 5%; margin-top: -17%;}
 
 @mixin media-query($device) {
 @media screen and (max-width: $device) {
@@ -61,7 +62,7 @@ header p.view small { padding-top: 2px; }
 @media only screen and (max-width: 670px) {
 
 	header {position: relative;}
-	site-footer {position: relative;}
+	footer {position: relative;}
 	header {width: 100%;}
 	#homewrap{display:none;}
 }
