@@ -36,6 +36,7 @@ header p.view small { padding-top: 2px; }
 
 footer{position: fixed; left: 5%; right: -5%; bottom: 5%; margin-top: -17%;}
 
+#sound{h2 a {color: #494949;}}
 @mixin media-query($device) {
 @media screen and (max-width: $device) {
 @content;
@@ -75,7 +76,7 @@ footer{position: fixed; left: 5%; right: -5%; bottom: 5%; margin-top: -17%;}
 	footer {bottom: 5%;}
 	#homewrap {display:none;}
         #vid {display: none;}
-	#sound {width: 100%; font-size: 70%; left:25%;}
+	#sound {width: 100%; font-size: 70%; left:70%;}
 }
 
 

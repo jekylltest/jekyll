@@ -75,7 +75,7 @@ footer{position: fixed; left: 5%; right: -5%; bottom: 5%; margin-top: -17%;}
 	footer {bottom: 5%;}
 	#homewrap {display:none;}
         #vid {display: none;}
-	#sound {width: 100%;}
+	#sound {width: 100%; font-size: 70%; left:70%;}
 }
 
 
