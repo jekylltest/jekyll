@@ -53,11 +53,12 @@ $on-laptop:        $content-width;
 
 @media only screen and (max-width: 670px) {
 
-#mick{display:none;}
-header {position:relative;}
-footer {position:relative;}
+	header {position: relative;}
+	footer {position: relative;}
+	header{width: 100%;}
+	#mick{display:none;}
 }
-header{width:100%;}
+
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
