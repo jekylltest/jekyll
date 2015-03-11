@@ -34,6 +34,8 @@ header h3 { margin-top: 20px; margin-bottom: 5px; }
 header p.view { margin-bottom: 5px; }
 header p.view small { padding-top: 2px; }
 
+footer{    position: fixed; left: 5%; right: -5%; bottom: 5%;
+    margin-top: -17%;}
 
 @mixin media-query($device) {
 @media screen and (max-width: $device) {
