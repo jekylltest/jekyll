@@ -63,11 +63,18 @@ footer{position: fixed; left: 5%; right: -5%; bottom: 5%; margin-top: -17%;}
 // 6 landscape
 @media only screen and (max-width: 670px) {
 
-	footer {margin-top:-10%;}
-	header {width: 100%;}
+	footer {margin-top:-10%; }
+	header {display: none;}
 	#homewrap {display:none;}
-	#sound {width: 50%;}
+}
 
+// 6 portrait
+@media only screen and (max-width: 480px) {
+
+	footer {margin-top:-10%; left: 25%; }
+	header {display: none;}
+	#homewrap {display:none;}
+        .iframe {display: none;}
 }
 
 

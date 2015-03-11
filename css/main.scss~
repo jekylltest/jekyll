@@ -66,6 +66,7 @@ footer{position: fixed; left: 5%; right: -5%; bottom: 5%; margin-top: -17%;}
 	footer {margin-top:-10%;}
 	header {width: 100%;}
 	#homewrap {display:none;}
+	#sound {width: 50%;}
 
 }
 
