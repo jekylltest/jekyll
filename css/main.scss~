@@ -45,6 +45,7 @@ footer{position: fixed; left: 5%; right: -5%; bottom: 5%; margin-top: -17%;}
 // ipad portrait
 @media only screen and (max-width: 780px) {
 
+	header {width: 100%;}
 	footer{position:fixed;bottom:1%;}
 	#mick{display:none;}
 	#homeim{margin-left:25%;margin-top: 15%;}
@@ -54,6 +55,7 @@ footer{position: fixed; left: 5%; right: -5%; bottom: 5%; margin-top: -17%;}
 // ipad landscape
 @media only screen and (max-width: 1020px) {
 
+	header {width: 100%;}
 	footer{position:fixed;bottom:1%;}
 	#homeim{width: 30%;}
 }
@@ -61,10 +63,10 @@ footer{position: fixed; left: 5%; right: -5%; bottom: 5%; margin-top: -17%;}
 // 6 landscape
 @media only screen and (max-width: 670px) {
 
-	header {position: relative;}
-	footer {position: relative;}
+	footer {margin-top:-10%;}
 	header {width: 100%;}
-	#homewrap{display:none;}
+	#homewrap {display:none;}
+
 }
 
 

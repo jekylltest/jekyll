@@ -63,11 +63,11 @@ footer{position: fixed; left: 5%; right: -5%; bottom: 5%; margin-top: -17%;}
 // 6 landscape
 @media only screen and (max-width: 670px) {
 
-	header {position: relative;}
-	footer {position: relative;}
+	footer {margin-top:-10%;}
 	header {width: 100%;}
-	#mick {display:none;}
-	#homim {}
+	#homewrap {display:none;}
+	#sound {width: 50%;}
+
 }
 
 
