@@ -46,12 +46,14 @@ footer{position: fixed; left: 5%; right: -5%; bottom: 5%; margin-top: -17%;}
 // ipad portrait
 @media only screen and (max-width: 780px) {
 
-	header {width: 70%;}
+	header {width: 10%;}
 	footer{position:fixed;bottom:1%;}
 	#mick{display:none;}
 	#homeim{margin-left:35%;margin-top: 10%;}
 	#sound {width: 100%; font-size: 70%; left:70%;}
 	#vid {width: 392px; height:220px; padding-right:2%;}
+	#rightquote{font-size:80%;}
+	.wrapper{max-width: 90%;left:10%;}
 }
 
 
