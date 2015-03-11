@@ -51,12 +51,13 @@ $on-laptop:        $content-width;
 	#homeim{width: 30%;}
 }
 
+// 6 landscape
 @media only screen and (max-width: 670px) {
 
 	header {position: relative;}
 	footer {position: relative;}
-	header{width: 100%;}
-	#mick{display:none;}
+	header {width: 100%;}
+	#homewrap{display:none;}
 }
 
 

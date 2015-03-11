@@ -27,6 +27,12 @@ $content-width:    60%;
 $on-palm:          $content-width;
 $on-laptop:        $content-width;
 
+header {position: fixed; left: 5%; right: -5%; top: 5%; width: 25%;}
+header h1 { margin-bottom: 5px; }
+header h1 a { color: #494949; font-weight: bold; }
+header h3 { margin-top: 20px; margin-bottom: 5px; }
+header p.view { margin-bottom: 5px; }
+header p.view small { padding-top: 2px; }
 
 
 @mixin media-query($device) {
@@ -51,11 +57,12 @@ $on-laptop:        $content-width;
 	#homeim{width: 30%;}
 }
 
+// 6 landscape
 @media only screen and (max-width: 670px) {
 
 	header {position: relative;}
 	footer {position: relative;}
-	header{width: 100%;}
+	header {width: 100%;}
 	#homewrap{display:none;}
 }
 
