@@ -66,6 +66,7 @@ footer{position: fixed; left: 5%; right: -5%; bottom: 5%; margin-top: -17%;}
 	footer {margin-top:-10%; }
 	header {display: none;}
 	#homewrap {display:none;}
+	#vid {width: 280px; height:157px;}
 }
 
 // 6 portrait
@@ -74,7 +75,7 @@ footer{position: fixed; left: 5%; right: -5%; bottom: 5%; margin-top: -17%;}
 	footer {margin-top:-10%; left: 25%; }
 	header {display: none;}
 	#homewrap {display:none;}
-        .iframe {display: none;}
+        #vid {display: none;}
 }
 
 

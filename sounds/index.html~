@@ -4,7 +4,6 @@ layout: default
 <style>
 .wrapper{width=$content-width/3}
 .wrapper{top:0px;}
-#sound{}
 </style>
 
 
