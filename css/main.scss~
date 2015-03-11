@@ -63,15 +63,16 @@ footer{position: fixed; left: 5%; right: -5%; bottom: 5%; margin-top: -17%;}
 // 6 landscape
 @media only screen and (max-width: 670px) {
 
-	footer {margin-top:-10%; }
+	footer {margin-top:-10%; position: relative;}
 	#homewrap {display:none;}
-	#vid {width: 420px; height:236px;}
+	#vid {width: 392px; height:220px; padding-right:2%;}
 }
 
 // 6 portrait
 @media only screen and (max-width: 480px) {
 
-	footer {margin-top:-10%; left: 25%; }
+	footer {margin-top:-10%;left:25%;}
+	#icons {left: 25%;}
 	#homewrap {display:none;}
         #vid {display: none;}
 	#sound {width: 100%;}
