@@ -61,7 +61,7 @@ footer{position: fixed; left: 5%; right: -5%; bottom: 5%; margin-top: -17%;}
 
 	header {width: 100%;}
 	footer{position:fixed;bottom:1%;}
-	#homeim{width: 30%;}
+	#homeim{width: 50%;}
 }
 
 // 6 landscape
