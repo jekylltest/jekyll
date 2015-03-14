@@ -36,7 +36,11 @@ header p.view small { padding-top: 2px; }
 
 footer{position: fixed; left: 5%; right: -5%; bottom: 5%; margin-top: -17%;}
 
+#homeim{width: 50%;}
+
 #sound{h2 a {color: #494949;}}
+#sound{padding-top:10%;}
+
 @mixin media-query($device) {
 @media screen and (max-width: $device) {
 @content;
@@ -46,14 +50,16 @@ footer{position: fixed; left: 5%; right: -5%; bottom: 5%; margin-top: -17%;}
 // ipad portrait
 @media only screen and (max-width: 780px) {
 
-	header {width: 10%;}
+	header {width: 5%;}
 	footer{position:fixed;bottom:1%;}
 	#mick{display:none;}
 	#homeim{margin-left:35%;margin-top: 10%;}
 	#vid {width: 392px; height:220px;}
+	#sound {padding-left:20%;}
 	#rightquote{font-size:80%;width:100%;left:15%;}
 	.wrapper{max-width: 70%;left:5%;}
 }
+
 
 
 // ipad landscape
@@ -61,8 +67,14 @@ footer{position: fixed; left: 5%; right: -5%; bottom: 5%; margin-top: -17%;}
 
 	header {width: 100%;}
 	footer{position:fixed;bottom:1%;}
-	#homeim{width: 70%; position:fixed;left:70%;}
+	#homeim{width:50%;margin-left:40%;}
 	#mick{display:none;}
+}
+
+// 1024768
+@media only screen and (max-width: 1030px) and (max-height: 600px) {
+
+	#homeim{width:40%;margin-left:50%;}
 }
 
 // 6 landscape
