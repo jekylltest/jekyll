@@ -51,13 +51,13 @@ footer{position: fixed; left: 5%; right: -5%; bottom: 5%; margin-top: -17%;}
 	#mick{display:none;}
 	#homeim{margin-left:35%;margin-top: 10%;}
 	#vid {width: 392px; height:220px; padding-right:2%;}
-	#rightquote{font-size:80%;width:100%;left:5%;}
+	#rightquote{font-size:80%;width:100%;left:15%;}
 	.wrapper{max-width: 70%;left:5%;}
 }
 
 
 // ipad landscape
-@media only screen and (max-width: 1020px) {
+@media only screen and (max-width: 1030px) {
 
 	header {width: 100%;}
 	footer{position:fixed;bottom:1%;}
