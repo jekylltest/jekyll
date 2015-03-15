@@ -1,8 +1,9 @@
-<footer class="site-footer">
+<footer class="site-footer" color:#494949;>
 grmunjal@gmail.com
 <br>
+<div id="icons">
 <a href="http://github.com/grmunjal"><img src="/images/gitit.png" width="20" height="20" style="vertical-align:middle;" border="0"></a>
 <a href="https://twitter.com/munjal_gitanshu"><img src="/images/tweet.png" width="20" height="20" style="vertical-align:middle;" border="0"></a>
 <a href="http://www.linkedin.com/pub/gitanshu-munjal/41/65/533" style="text-decoration:none;"><img src="/images/linkedin.png" width="20" height="20" style="vertical-align:middle;" border="0"></a>
-
+</div>
 </footer>

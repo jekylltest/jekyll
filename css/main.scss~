@@ -39,7 +39,7 @@ footer{position: fixed; left: 5%; right: -5%; bottom: 5%; margin-top: -17%;}
 #homeim{width: 50%;}
 
 #sound{h2 a {color: #494949;}}
-#sound{padding-top:10%;}
+
 
 @mixin media-query($device) {
 @media screen and (max-width: $device) {
@@ -52,6 +52,7 @@ footer{position: fixed; left: 5%; right: -5%; bottom: 5%; margin-top: -17%;}
 
 	header {width: 5%;}
 	footer{position:fixed;bottom:1%;}
+	footer a{color:#494949;}
 	#mick{display:none;}
 	#homeim{margin-left:35%;margin-top: 10%;}
 	#vid {width: 392px; height:220px;}
